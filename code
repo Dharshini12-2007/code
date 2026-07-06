@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careers - Join Our Team</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0f4c81,#007bff);
+    color:#fff;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#fff;
+    color:#007bff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffd43b;
+    color:#000;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:35px;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#007bff;
+    margin-bottom:10px;
+}
+
+.card p{
+    margin:8px 0;
+}
+
+.apply-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#007bff;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.apply-btn:hover{
+    background:#0056b3;
+}
+
+.benefits{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.benefit{
+    background:#fff;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+form{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+input,select,textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#007bff;
+    color:#fff;
+    border:none;
+    font-size:18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+footer{
+    background:#0f172a;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:36px;
+}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Join Our Team</h1>
+<p>Build your future with us and grow your career.</p>
+
+<a href="#jobs" class="btn">View Open Positions</a>
+
+</header>
+
+<section class="container">
+
+<h2 class="section-title">Why Work With Us?</h2>
+
+<div class="benefits">
+
+<div class="benefit">
+<h3>💰 Competitive Salary</h3>
+<p>Industry-leading compensation.</p>
+</div>
+
+<div class="benefit">
+<h3>🏠 Remote Work</h3>
+<p>Flexible work environment.</p>
+</div>
+
+<div class="benefit">
+<h3>📈 Career Growth</h3>
+<p>Continuous learning opportunities.</p>
+</div>
+
+<div class="benefit">
+<h3>🏥 Health Benefits</h3>
+<p>Medical insurance and wellness support.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container" id="jobs">
+
+<h2 class="section-title">Current Openings</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Frontend Developer</h3>
+<p><strong>Location:</strong> Remote</p>
+<p><strong>Experience:</strong> 2+ Years</p>
+<p><strong>Type:</strong> Full-Time</p>
+<p>Create modern and responsive web applications.</p>
+<a href="#apply" class="apply-btn">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>Backend Developer</h3>
+<p><strong>Location:</strong> Chennai</p>
+<p><strong>Experience:</strong> 3+ Years</p>
+<p><strong>Type:</strong> Full-Time</p>
+<p>Develop scalable APIs and backend services.</p>
+<a href="#apply" class="apply-btn">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>UI/UX Designer</h3>
+<p><strong>Location:</strong> Bangalore</p>
+<p><strong>Experience:</strong> 2+ Years</p>
+<p><strong>Type:</strong> Full-Time</p>
+<p>Create engaging and user-friendly designs.</p>
+<a href="#apply" class="apply-btn">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>Digital Marketing Executive</h3>
+<p><strong>Location:</strong> Remote</p>
+<p><strong>Experience:</strong> 1+ Year</p>
+<p><strong>Type:</strong> Full-Time</p>
+<p>Manage SEO, social media, and campaigns.</p>
+<a href="#apply" class="apply-btn">Apply Now</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">Hiring Process</h2>
+
+<div class="grid">
+
+<div class="card">1️⃣ Apply Online</div>
+
+<div class="card">2️⃣ Resume Screening</div>
+
+<div class="card">3️⃣ Technical Interview</div>
+
+<div class="card">4️⃣ HR Interview</div>
+
+<div class="card">5️⃣ Offer Letter</div>
+
+<div class="card">6️⃣ Welcome Aboard</div>
+
+</div>
+
+</section>
+
+<section class="container" id="apply">
+
+<h2 class="section-title">Apply Now</h2>
+
+<form id="careerForm">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+
+<option value="">Select Position</option>
+
+<option>Frontend Developer</option>
+
+<option>Backend Developer</option>
+
+<option>UI/UX Designer</option>
+
+<option>Digital Marketing Executive</option>
+
+</select>
+
+<input type="file">
+
+<textarea rows="5" placeholder="Cover Letter"></textarea>
+
+<button type="submit">Submit Application</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Your Company Name. All Rights Reserved.</p>
+
+</footer>
+
+<script>
+document.getElementById("careerForm").addEventListener("submit", function(e){
+e.preventDefault();
+alert("Your application has been submitted successfully!");
+this.reset();
+});
+</script>
+
+</body>
+</html>
